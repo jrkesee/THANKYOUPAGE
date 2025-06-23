@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The 5 Day Burn | Thank You</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Ubuntu', sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1520439901844-0f261fecaa47') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #8fbc8f;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+    .carousel {
+      font-size: 1.1rem;
+      font-style: italic;
+      animation: fade 12s infinite;
+    }
+    @keyframes fade {
+      0%,100% {opacity:0;}
+      10%,30% {opacity:1;}
+      33%,100% {opacity:0;}
+    }
+    .quote:nth-child(1) {animation-delay:0s;}
+    .quote:nth-child(2) {animation-delay:4s;}
+    .quote:nth-child(3) {animation-delay:8s;}
+  </style>
+</head>
+<body>
+  <h1>Thank You for Being Here</h1>
+  <p>You didn’t land here by accident. This is your sign. Your energy. Your time. Your growth. Keep burning bright.</p>
+  <div class="carousel">
+    <div class="quote">"The ones who are crazy enough to think they can change the world are the ones who do." – Steve Jobs</div>
+    <div class="quote">"Don’t count the days, make the days count." – Muhammad Ali</div>
+    <div class="quote">"You are the ancestor someone is praying to become." – African Proverb</div>
+  </div>
+</body>
+</html>
